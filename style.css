@@ -1,0 +1,324 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: orange;
+}
+#navbar2{
+    width: 100%;
+    height: 240px;
+    top: 10px;
+    z-index: 1;
+    position: absolute;
+    visibility: hidden;
+    background-color: orange;
+}
+#lists{
+    margin-top: -80px;
+    width: 100%;
+    height: 460px;
+    background-color: bisque;
+    visibility: hidden;
+    z-index: 4;
+    background-color: orange;
+}
+#buts1{
+    width: 30px;
+    height: 30px;
+    margin-left: 1180px;
+    margin-top: 10px;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    background-image: url(./images/button-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dd{
+    position: relative;
+}
+#ds{
+    position: relative;
+}
+#buts2{
+    width: 30px;
+    height: 30px;
+    margin-left: 1180px;
+    margin-top: 10px;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    background-image: url(./images/2794770-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#but3{
+    background-color: orange;
+    border: none;
+}
+#but4{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 6px;
+    visibility: hidden;
+    background-color: orange;
+    border: none;
+}
+#but6{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 6px;
+    visibility: hidden;
+    background-color: orange;
+    border: none;
+}
+#but8{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 6px;
+    visibility: hidden;
+    background-color: orange;
+    border: none;
+}
+#list2
+{
+    width: 100%;
+    height: 160px;
+    background-color: brown;
+    position: absolute;
+    margin-top: -440px;
+    visibility: hidden;
+    background-color: orange;
+}
+
+
+.image{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://www.wallpaperflare.com/static/800/486/460/headphones-yellow-background-music-black-wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    width: 320px;
+    height: 200px; 
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.mu{
+    width: 120px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+}
+.buttons{
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 25px;
+    margin-left: 7px;
+    border: none;
+    background-color: white;
+}
+.buttons:hover{
+    background-color: rgb(235, 221, 221);
+}
+.fu{
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-left: 20px;
+    border: none;
+    background-color: orange;
+    position: absolute;
+}
+.paragraph{
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+}
+.inside{
+    height: 100px;
+    margin: 40px;
+}
+.help{
+    width: 100%;
+    height: 70px;
+    background-color: orange;
+    margin-top: -30px;
+    position: relative;
+    text-align: center;
+}
+.su{
+    position: absolute;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+   
+}
+.rows{
+    margin-top: 10px;
+    width: 800px;
+    height: 320px;
+    display: flex;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+.cols{
+    flex: 1;
+    background-color: orange;
+    margin-right: 20px;
+    position: relative;
+}
+.images{
+    width: 100%;
+    height: 230px;
+    
+}
+.heads{
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+.ror{
+    margin-top: 10px;
+    width: 800px;
+    height: 160px;
+    display: flex;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+.cor{
+    flex: 1;
+    background-color: beige;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.cor1{
+    background-image: url(https://images.unsplash.com/photo-1505740106531-4243f3831c78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&w=1000&q=80);
+}
+.cor2{
+    background-image: url(https://images.unsplash.com/photo-1505751104546-4b63c93054b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8&w=1000&q=80);
+}
+.cor3{
+    background-image: url(https://i.pinimg.com/1200x/d5/31/4b/d5314bf7b15732a041c4c9444a4dd703.jpg);
+}
+.cor4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZa_aGUIT5FJIvqimwayWzHMp3s-unr2uZwQ&usqp=CAU);
+}
+.cor5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy-2RRoVEtwelw78Ttaf2Q6tFPaV4b7Vluyg&usqp=CAU);
+}
+.cor6{
+    background-image: url(https://us.123rf.com/450wm/photosvit/photosvit1708/photosvit170801458/84053736-headset-for-music-made-of-plastic-modern-and-stylish-earphones-on-light-yellow-background-headphones.jpg?ver=6);
+}
+.cor7{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR--J1hoLKH0NKZ2ObJhNWzke3Tk7B_gfer8Em7CADP9SrDK3uTusVxxBk_F3fyMoKO2aE&usqp=CAU);
+}
+.cor8{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQbqqEUZV7wJMJ4ahyFm0klX7La6v9qpylUA&usqp=CAU);
+}
+.ll{
+    margin-top: 10px;
+    text-align: center;
+}
+.discount{
+    width: 100%;
+    height: 150px;
+    background-color: orange;
+    margin-top: 50px;
+    position: relative;
+}
+.buts{
+    width: 120px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 850px;
+   
+}
+.overlayz {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(33, 158, 199, 0.744);
+  }
+  
+  .cor:hover .overlayz {
+    opacity: 1;
+  }
+  .plus{
+    height: 60px;
+    width: 60px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 60px;
+  }
+.rors{
+    margin-top: 10px;
+    width: 800px;
+    height: 160px;
+    display: flex;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+.cors{
+    flex: 1;
+    margin-right: 10px;
+    position: relative;
+}
+.map{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+.footers
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 30px;
+}
+.logi{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70px;
+}
+.logis{
+    flex: 1;
+  background-color: orange;
+  margin-right: 10px;
+  border-radius: 50%;
+}
